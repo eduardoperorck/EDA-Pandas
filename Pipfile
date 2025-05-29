@@ -4,9 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pandas = "*"
 matplotlib = "*"
 scipy = "*"
+pandas = "*"
+numpy = "==1.26.4"
+sweetviz = "*"
 
 [dev-packages]
 ipykernel = "*"
